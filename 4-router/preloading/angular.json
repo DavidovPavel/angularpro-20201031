@@ -107,6 +107,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "preloading"
+    }
+  },
+  "defaultProject": "preloading",
+  "cli": {
+    "analytics": false
+  }
 }
