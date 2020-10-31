@@ -56,7 +56,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "webWorkerTsConfig": "tsconfig.worker.json"
           },
           "configurations": {
             "production": {
@@ -107,6 +108,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "web-workers"
+    }
+  },
+  "defaultProject": "web-workers",
+  "cli": {
+    "analytics": false
+  }
 }
