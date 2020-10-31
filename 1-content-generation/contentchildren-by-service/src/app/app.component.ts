@@ -4,10 +4,10 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
    <app-animals>
-    <cat alink></cat>
-    <dog alink></dog>
+    <cat></cat>
+    <dog></dog>
     <rock></rock>
-    <fox alink></fox>
+    <fox></fox>
     <p>just an element</p>
    </app-animals>    
   `,

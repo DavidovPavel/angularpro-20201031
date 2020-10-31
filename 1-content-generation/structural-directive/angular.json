@@ -107,6 +107,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "structural-directive"
+    }
+  },
+  "defaultProject": "structural-directive",
+  "cli": {
+    "analytics": false
+  }
 }

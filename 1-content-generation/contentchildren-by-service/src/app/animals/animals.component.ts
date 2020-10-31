@@ -14,10 +14,12 @@ import { LinkDirective } from '../link.directive';
 })
 export class AnimalsComponent {
 
+  @ContentChildren(Animal) animals: QueryList<Animal>
+
   // @ContentChildren(Animal) animals: QueryList<Animal>
 
   say() {
-    // this.animals.forEach(animal => console.log(animal));
-    // this.animals.forEach(animal => animal.say());
+    this.animals.forEach(animal => console.log(animal));
+    this.animals.forEach(animal => animal.say());
   }
 }

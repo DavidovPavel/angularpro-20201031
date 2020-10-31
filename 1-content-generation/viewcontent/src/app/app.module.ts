@@ -2,12 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { DelayDirective } from './delay.directive';
+import { ItemComponent } from './item/item.component';
+import { ReversePipe } from './reverse.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DelayDirective
+    ItemComponent,
+    ReversePipe
   ],
   imports: [
     BrowserModule
