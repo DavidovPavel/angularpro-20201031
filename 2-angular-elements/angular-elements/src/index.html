@@ -16,9 +16,9 @@
     const el = document.querySelector('my-hello');
     el.setAttribute('name', 'Jack');
     el.addEventListener('clicked', event => console.log(event));
-    // setTimeout(_ => {
-    //   el.innerHTML = 'WOW! That\'s awesome!'
-    // }, 2000);
+    setTimeout(_ => {
+      el.innerHTML = 'WOW! That\'s awesome!'
+    }, 2000);
   </script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-hello',
@@ -6,10 +6,9 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
     <p (click)="clicked.emit(name)">
       hello, {{name}}!
     </p>
-    <ng-content></ng-content>
+    <slot></slot>
   `,
-  styles: [
-  ]
+  encapsulation: ViewEncapsulation.ShadowDom
 })
 export class HelloComponent implements OnInit {
 
